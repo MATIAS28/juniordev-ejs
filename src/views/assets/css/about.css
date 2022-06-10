@@ -1,0 +1,56 @@
+/*Sobre mi*/
+
+.about-page{
+  padding: 2%;
+}
+
+
+  /*Contenedor principal*/
+  #content{
+    border-radius: 8px;
+      width: 100%;
+      margin: 0px auto;
+      background: #ccc;
+      padding: 20px;
+      transition: all 800ms;
+  }
+
+#title{
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 30px;
+  }
+  
+  #title h1{
+    font-family: "HK";
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  
+  #title h2{
+    font-size: 30px;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .about h2{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+  }
+  
+  .about p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+  }
+  
+  article.about{
+    width: 85%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }

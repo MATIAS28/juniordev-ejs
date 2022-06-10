@@ -1,0 +1,164 @@
+/*Fuentes*/
+@font-face {
+    font-family: "font";
+    src: url("../fonts/f1.ttf");
+  }
+  
+  
+  /*Generales*/
+  *{
+    margin: 0px;
+    padding: 0px;
+    font-family: "font";
+  }
+  
+  html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+  }
+  
+  .nav-container {
+    padding: 0.8rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .menu{
+    padding: 0.5rem;
+  }
+
+  .nav-title, .sections a {
+    padding: 0.5rem;
+    color: rgba(47, 20, 141, 0.815);
+    text-decoration: none;
+  }
+
+  .nav-title {
+    -webkit-text-stroke-width: thick;
+    font-size: 1.45rem;
+  }
+
+  .nav-btn {
+    padding: 0.8rem;
+    display: none;
+  }
+
+  .sections{
+    margin: 0.5rem;
+  }
+
+  .nav-items {
+    padding-right: 0.8rem;
+  }
+
+  .nav-items {
+    font-weight: 700;
+  }
+  
+  a:hover{
+    color: burlywood;
+    text-decoration: none;
+  }
+  
+  
+  /*Targeta de Proyectos*/
+  #card-content{
+    cursor: pointer;
+    transition: all 300ms;
+  }
+  
+  #card-content:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: translateY(-10px);
+  }
+  
+  
+  
+  /*Articulo*/
+  #img img{
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .data{
+    margin: 0px auto;
+    margin-top: 30px;
+  
+  }
+  
+  .data p{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 18px;
+    color: #1e252d;
+  }
+  
+  .data h4{
+    padding-top: 20px;
+  }
+  
+  .lista{
+    padding: 20px;
+    text-align:left;
+  }
+  
+  .resaltado{
+    font-style: oblique;
+    font-weight: 700;
+  }
+  
+  .resaltado-h2{
+    color: #6490a7;
+    text-decoration: underline;
+    padding: 12px;
+  }
+  
+  .card{
+    display: unset !important;
+    position: unset !important;
+  }
+  
+  .div-area{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .img-cont img{
+    width: 50%;
+    margin: 0px auto;
+    display: block;
+  }
+  
+  .but-proyecto a{
+    margin-right: 10px;
+  }
+  
+  .resumen{
+    padding: 20px;
+    background-color: #cac0c0a8;
+    border-radius: 10px;
+  }
+  
+  /*Confirm*/
+  .confirm-alert{
+    background: #dc3545;
+    color: white;
+    padding: 0px;
+    width: 400px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  
+  .fin{
+    padding: 20px;
+    border-left: 2px solid #456372;
+    background: #ccc;
+  }

@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 1200px;
+  }
+  
+  .gif-carga img{
+      vertical-align: middle;
+      border-style: none;
+      display: block;
+      margin: 0px auto;
+      max-width: 360px;
+      width: 100%;
+  }
+  
+  /*Art.Desarrollo Web*/
+  .BJS{
+    cursor: pointer;
+    width: 50%;
+    height: 50px;
+    border-radius: 8px;
+    text-align: center;
+    background: #e9d54d;
+    padding: 5px;
+    transition: all 600ms;
+  }
+  
