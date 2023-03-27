@@ -37,7 +37,7 @@ app.use('/', article_routes);
 
 
 // Start the app by listening on the default Heroku port
-var port = process.env.PORT || 9000;
+var port = 9000;
 app.listen(port, (start) => {
     console.log("Listen in the port"+" "+port);
 });
