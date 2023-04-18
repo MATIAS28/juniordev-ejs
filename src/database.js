@@ -1,11 +1,8 @@
-'use strict'
-
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
+const URI = process.env.MONGODB_URI
 //DB conection
-var mongoose = require('mongoose');
-const MONGODB_URI = process.env.MONGODB_URI
-mongoose.Promise = global.Promise;
-mongoose.connect(MONGODB_URI, { connectWithNoPrimary: true, useNewUrlParser: true,  useUnifiedTopology: true })
+
+mongoose.connect(URI, { connectWithNoPrimary: true, useNewUrlParser: true,  useUnifiedTopology: true })
                 .then(() => {
                   console.log('Conectado a la base de datos');
                 })

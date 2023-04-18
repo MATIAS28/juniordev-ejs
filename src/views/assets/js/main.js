@@ -38,3 +38,4 @@ function bjs() {
 function contact() {
   $('html, body').animate({ scrollTop: ($('.divs').offset().top)}, 600);
 }
+
