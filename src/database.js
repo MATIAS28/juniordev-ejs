@@ -1,6 +1,6 @@
+//DB conection
 const mongoose = require('mongoose');
 const URI = process.env.MONGODB_URI
-//DB conection
 
 mongoose.connect(URI, { connectWithNoPrimary: true, useNewUrlParser: true,  useUnifiedTopology: true })
                 .then(() => {
